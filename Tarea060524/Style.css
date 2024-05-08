@@ -1,0 +1,144 @@
+
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: rgb(246, 188, 16 );
+    background-image: url('images/PuntaArenasVistaAerea.jpg');
+}
+
+body nav a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(82, 59, 11);
+    margin: 10px 40px 20px 30px;
+}
+body nav a:hover{
+    color: rgb(252, 137, 0);
+}
+body nav{
+    display: block;
+    background:linear-gradient(135deg,rgb(246, 188, 16 ),rgb(233, 176, 7));
+    border-radius: 5px;
+}
+
+
+.cardPrese{
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(135deg,#4ac013,#044217);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 0px #000000; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(135deg,#4ac013,#044217);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.cardDisplayable{
+    display: inline-block;
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(135deg,#1c8b9e,#054d9e);
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    margin: 10px 10px 10px;
+}
+
+.cardDisplayableClimat{
+    display: inline-block;
+    width: 90%;
+    max-width: 210px;
+    background:linear-gradient(135deg,#1c8b9e,#054d9e);
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    margin: 10px 10px 10px;
+}
+
+#Services{
+    display: flex;
+
+}
+#ConsultaClima{
+    display:flexbox;
+
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+
+.Inpons{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 50px;
+    flex: 1;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.Boton{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 200px;
+    height: 90px;
+    cursor: pointer;
+
+}
